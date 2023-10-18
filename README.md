@@ -66,6 +66,11 @@ The detailed descriptions about the arguments are as following:
 
 **Scripts:** The scripts for reproduction are provided in `scripts/` folder.
 
+## Replicating Results
+[Link to Paper](https://arxiv.org/abs/2306.06579)
+To replicate the results, run the `combined-script.bat` file.
+
+
 ## Acknowledgement 
 This codebase is partially inherited from these below repositories, we want to express our thank to the authors:
 * [TS2Vec](https://github.com/yuezhihan/ts2vec): TS2Vec: Towards Universal Representation of Time Series (AAAI-22)
