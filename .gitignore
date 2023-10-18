@@ -6,3 +6,4 @@ queue_run.sh.o*
 notebook/
 command_output.txt
 UCR
+electricity.csv
