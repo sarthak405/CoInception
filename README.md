@@ -56,11 +56,13 @@ The detailed descriptions about the arguments are as following:
 | loader | The data loader used to load the experimental data. This can be set to `UCR`, `UEA`, `forecast_csv`, `forecast_csv_univar`, `anomaly`, or `anomaly_coldstart` |
 | batch_size | The batch size (defaults to 8) |
 | repr_dims | The representation dimensions (defaults to 320) |
-| gpu | The gpu no. used for training and inference (defaults to 0) |
+| gpu | The gpu no. used for training and inference (defaults to None) |
 | eval | Whether to perform evaluation after training |
 | save_ckpt | Whether to save checkpoint (default: False)
 
 (For descriptions of more arguments, run `python train.py -h`.)
+
+> If 'gpu' is set to None, cpu will be used for training
 
 **Scripts:** The scripts for reproduction are provided in `scripts/` folder.
 
