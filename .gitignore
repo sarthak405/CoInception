@@ -7,3 +7,6 @@ notebook/
 command_output.txt
 UCR
 electricity.csv
+outputs
+results/*
+results/code_compile.py
